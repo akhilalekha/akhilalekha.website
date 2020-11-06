@@ -1,18 +1,19 @@
 module.exports = {
-	title: "My Site",
-	tagline: "The tagline of my site.. just testing",
-	url: "https://your-docusaurus-test-site.com",
+	title: "Akhila C R",
+	tagline: "Hi, I'm a front-end developer :)",
+	url: "https://github.com/akhilalekha",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
-	favicon: "img/favicon.ico",
-	organizationName: "", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	favicon: "_",
+	organizationName: "akhilalekha", // Usually your GitHub org/user name.
+	projectName: "my-github", // Usually your repo name.
+	// #9DFF63
 	themeConfig: {
 		navbar: {
-			title: "My Site",
+			title: "Akhila C R",
 			logo: {
 				alt: "My Site Logo",
-				src: "img/logo.svg"
+				src: "img/working_remotely.svg"
 			},
 			items: [
 				// {
@@ -46,19 +47,15 @@ module.exports = {
 				// 	]
 				// },
 				{
-					title: "Community",
+					title: "Internet Profiles",
 					items: [
 						{
-							label: "Stack Overflow",
-							href: "https://stackoverflow.com/questions/tagged/docusaurus"
+							label: "LinkedIn",
+							href: "https://www.linkedin.com/in/akhila-c-r/"
 						},
 						{
-							label: "Discord",
-							href: "https://discordapp.com/invite/docusaurus"
-						},
-						{
-							label: "Twitter",
-							href: "https://twitter.com/docusaurus"
+							label: "GitHub",
+							href: "https://github.com/akhilalekha"
 						}
 					]
 				},
@@ -68,15 +65,11 @@ module.exports = {
 						{
 							label: "Blog",
 							to: "blog"
-						},
-						{
-							label: "GitHub",
-							href: "https://github.com/facebook/docusaurus"
 						}
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`
+			copyright: `Copyright © ${new Date().getFullYear()} Akhila C R.`
 		}
 	},
 	presets: [
