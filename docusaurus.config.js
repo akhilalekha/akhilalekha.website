@@ -6,7 +6,7 @@ module.exports = {
 	onBrokenLinks: "throw",
 	favicon: "_",
 	organizationName: "akhilalekha", // Usually your GitHub org/user name.
-	projectName: "my-github", // Usually your repo name.
+	projectName: "website-ds", // Usually your repo name.
 	// #9DFF63
 	themeConfig: {
 		navbar: {
@@ -16,19 +16,16 @@ module.exports = {
 				src: "img/working_remotely.svg"
 			},
 			items: [
-				// {
-				//   to: 'docs/',
-				//   activeBasePath: 'docs',
-				//   label: 'Docs',
-				//   position: 'left',
-				// },
+				{ to: "resume/", label: "Resume", position: "left" },
+				{ to: "showcase/", label: "Showcase", position: "left" },
 				{ to: "blog", label: "Blog", position: "left" }
 				// {
 				// 	href: "https://github.com/facebook/docusaurus",
 				// 	label: "GitHub",
 				// 	position: "right"
 				// }
-			]
+			],
+			hideOnScroll: true
 		},
 		footer: {
 			style: "dark",
@@ -47,7 +44,7 @@ module.exports = {
 				// 	]
 				// },
 				{
-					title: "Internet Profiles",
+					title: "Find me at",
 					items: [
 						{
 							label: "LinkedIn",
@@ -69,7 +66,7 @@ module.exports = {
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Akhila C R.`
+			copyright: `Made with ♥ by me using Docusaurus | Copyright © ${new Date().getFullYear()} Akhila C R.`
 		}
 	},
 	presets: [
@@ -78,10 +75,7 @@ module.exports = {
 			{
 				docs: false,
 				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					editUrl:
-						"https://github.com/facebook/docusaurus/edit/master/website/blog/"
+					showReadingTime: true
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css")

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.outer-conttainer {
+	padding: 2% 11% 6%;
+	background-color: #1a191f;
+}
+.h1 {
+	text-align: center;
+	color: var(--ifm-color-primary);
+}
+.showcase-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.acard {
+	/* height: 360px; */
+	width: 400px;
+	font-family: "Open Sans", sans-serif;
+	box-shadow: 2px 4px 5px 0 #111113;
+	transition-duration: 0.5s;
+	margin-bottom: 40px;
+	background-color: #292831;
+	color: white;
+}
+
+/* #3b4249 */
+.acard:hover {
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+.card-img {
+	height: 200px;
+	width: 400px;
+	display: block;
+	object-fit: cover;
+	opacity: 0.9;
+}
+
+.card-details {
+	padding: 20px;
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.card-des {
+	font-size: 15px;
+}
+
+.card-links {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 12px;
+}
+.link {
+	padding: 8px 50px;
+	text-align: center;
+	border: 2px solid rgb(209, 208, 208);
+	border-radius: 10px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	margin-top: 7px;
+}
+.link:hover {
+	color: #58ebcb;
+	text-decoration: none;
+}
+
+.card-links img {
+	margin-right: 16px;
+	position: relative;
+	top: 3px;
+	left: -6px;
+}

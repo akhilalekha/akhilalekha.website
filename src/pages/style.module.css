@@ -23,8 +23,15 @@
 	align-items: center;
 	justify-content: center;
 }
-
+/***********************************/
+#custom-header {
+	color: #25c2a0;
+}
 .working-img {
 	width: 200px;
 	height: auto;
+}
+
+.custom-container {
+	background-color: #25c2a0;
 }
