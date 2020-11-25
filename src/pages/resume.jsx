@@ -5,7 +5,7 @@ import styles from "./resume.module.css";
 function Resume() {
 	return (
 		<Layout title="Resume">
-			<div className={styles["outer-container"]}>
+			<div className={styles.outercontainer}>
 				<h2>Resume</h2>
 				<h3>Summary</h3>
 				<p>
@@ -17,23 +17,21 @@ function Resume() {
 				<h3>Professional Experience</h3>
 				<h4>Programmar Analyst | Cognizant</h4>
 				<em>Apr 2018 - Sep 2019 | Kochi, Kerala</em>
-				<p>
-					<ul>
-						<li>
-							Wrote and optimized test cases to maximize the success of
-							functional software testing with consistent, thorough approaches
-						</li>
-						<li>Created automated test scripts using Selenium</li>
-						<li>
-							Identified and tracked defects and supported developers in
-							resolving problems by completing additional tests
-						</li>
-						<li>
-							Operated under Agile framework to complete releases in a timely
-							manner
-						</li>
-					</ul>
-				</p>
+				<ul>
+					<li>
+						Wrote and optimized test cases to maximize the success of functional
+						software testing with consistent, thorough approaches
+					</li>
+					<li>Created automated test scripts using Selenium</li>
+					<li>
+						Identified and tracked defects and supported developers in resolving
+						problems by completing additional tests
+					</li>
+					<li>
+						Operated under Agile framework to complete releases in a timely
+						manner
+					</li>
+				</ul>
 				<h3>Skills</h3>
 				<p>
 					HTML 5, CSS 3, JavaScript, Bootstrap, React.js, Node.js, Mongoose,

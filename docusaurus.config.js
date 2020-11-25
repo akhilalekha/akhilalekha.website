@@ -12,8 +12,8 @@ module.exports = {
 		navbar: {
 			title: "Akhila C R",
 			logo: {
-				alt: "My Site Logo",
-				src: "img/working_remotely.svg"
+				alt: "my-logo",
+				src: "img/web_development.svg"
 			},
 			items: [
 				{ to: "resume/", label: "Resume", position: "left" },
@@ -83,4 +83,12 @@ module.exports = {
 			}
 		]
 	]
+	// scripts: [
+	// 	"https://kit.fontawesome.com/2077184b1c.js"
+	// 	// Object format.
+	// 	{
+	// 		src: "https://use.fontawesome.com/releases/v5.15.1/js/all.js",
+	// 		async: true
+	// 	}
+	// ]
 };
