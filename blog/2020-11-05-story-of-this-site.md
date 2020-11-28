@@ -8,8 +8,7 @@ author_image_url: ""
 tags: []
 ---
 
-Welcome to my blog. I have used [**Docusaurus 2 alpha**](https://v2.docusaurus.io/) to create this website.
-I wasn't sure about the tool that I wanted to use. Gatsby.js? Next.js? I didn't know. Although I came across many impressive portfolio websites I couldn't get started.
+I have used [**Docusaurus 2 alpha**](https://v2.docusaurus.io/) to create this website. This is an open-source React based static site generator by facebook primarily for documentation purposes. I really liked the UI of the documentation sites I saw which was made with this. Also I came across the personal site of a team member of this tool and I liked it. I wasn't sure about the tool that I wanted to use. Gatsby looked really scary to me. And I didn't know Next.js yet. But it's on my list :) Although I haven't used a single static site generator before, I felt like I could try this. It came with mdx support for blog and docs - and that's all I wanted.
 
 <!--truncate-->
 

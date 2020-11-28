@@ -44,7 +44,7 @@ module.exports = {
 				// 	]
 				// },
 				{
-					title: "Find me at",
+					title: "Reach me at",
 					items: [
 						{
 							label: "LinkedIn",
@@ -66,7 +66,7 @@ module.exports = {
 					]
 				}
 			],
-			copyright: `Made with ♥ by me using Docusaurus | Copyright © ${new Date().getFullYear()} Akhila C R.`
+			copyright: `Made with ♥ by me using Docusaurus · Copyright © ${new Date().getFullYear()} Akhila C R`
 		}
 	},
 	presets: [

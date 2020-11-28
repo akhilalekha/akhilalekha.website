@@ -1,3 +1,10 @@
-.outercontainer {
-	padding: 5% 20%;
+@media only screen and (min-width: 996px) {
+	.outercontainer {
+		padding: 5% 20%;
+	}
+}
+@media only screen and (max-width: 995px) {
+	.outercontainer {
+		padding: 5% 5%;
+	}
 }

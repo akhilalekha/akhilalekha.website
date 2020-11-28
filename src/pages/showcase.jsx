@@ -22,16 +22,14 @@ function Showcase() {
 									target="_blank"
 									rel="noopener"
 								>
-									{/* <i className="fas fa-link"></i> */}
 									Live
 								</a>
 								<a
 									className={styles.link}
 									href={project.github_link}
 									target="_blank"
-									rel="noopener"
+									rel="noopener noreferrer"
 								>
-									{/* <i className="fas fa-code"></i> */}
 									Code
 								</a>
 							</div>

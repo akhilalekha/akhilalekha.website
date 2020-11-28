@@ -6,7 +6,7 @@
  */
 
 .heroBanner {
-	padding: 4rem 0;
+	padding: 6rem 0 8rem;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
@@ -30,10 +30,11 @@
 	align-items: center;
 	justify-content: center;
 }
+
 /***********************************/
-/* #customHeader {
-	color: #25c2a0;
-} */
+/* #01C2CC */
+/* #7d2ae8; */
+/* #25c2a0 */
 .working-img {
 	width: 200px;
 	height: auto;

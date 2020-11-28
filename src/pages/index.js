@@ -32,7 +32,7 @@ function Home() {
 								className={styles.socialLink}
 								href="https://www.linkedin.com/in/akhila-c-r/"
 								target="_blank"
-								rel="noopener"
+								rel="noopener noreferrer"
 							>
 								<svg
 									aria-hidden="true"
@@ -56,7 +56,7 @@ function Home() {
 								className={styles.socialLink}
 								href="https://www.github.com/akhilalekha/"
 								target="_blank"
-								rel="noopener"
+								rel="noopener noreferrer"
 							>
 								<svg
 									aria-hidden="true"

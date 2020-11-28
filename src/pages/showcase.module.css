@@ -1,6 +1,5 @@
 .outerContainer {
 	padding: 2% 11% 6%;
-	background-color: #131314;
 }
 
 .showcaseCards {
@@ -9,14 +8,24 @@
 	justify-content: space-around;
 }
 
+/* @media only screen and (min-width: 344px) {
+	.showcaseCards {
+		
+	}
+} */
+@media only screen and (max-width: 343px) {
+	.showcaseCards {
+		margin: 0 100px 0;
+	}
+}
+
 .acard {
 	width: 400px;
 	font-family: "Open Sans", sans-serif;
-	box-shadow: 2px 2px 15px 0 #141616;
+	border: 1px solid rgb(168, 164, 164);
+	border-radius: 20px;
 	transition-duration: 0.3s;
 	margin-bottom: 40px;
-	background-color: #2c2c30;
-	color: #fafaf6;
 }
 
 .acard:hover {
@@ -24,8 +33,11 @@
 	transition-duration: 0.3s;
 }
 .cardImg {
-	height: 200px;
-	width: 400px;
+	/* height: 200px;
+	width: 400px; */
+	border-radius: 20px 20px 0 0;
+	max-width: 100%;
+	max-height: 100%;
 	display: block;
 	object-fit: cover;
 	opacity: 0.9;
@@ -51,15 +63,19 @@
 .link {
 	width: 180px;
 	text-align: center;
-	border: 2px solid #fafaf6;
-	border-radius: 10px;
+	border-radius: 5px;
 	text-decoration: none;
-	color: #fafaf6;
+	/* color: #fff; */
+	color: rgba(125, 42, 232, 1);
+	border: 2px solid rgba(125, 42, 232, 1);
+	/* background-color: rgba(125, 42, 232, 1); */
+	padding: 2px;
 	margin: 5px;
+	font-weight: bold;
 }
 .link:hover {
-	color: black;
-	background-color: #fafaf6;
+	color: #fff;
+	background-color: rgba(125, 42, 232, 1);
 	text-decoration: none;
 }
 
