@@ -54,6 +54,33 @@ em {
 	font-size: 17px;
 }
 
+/** footer override **/
+
 footer .text--center {
 	font-size: 15px;
+}
+
+.footer .footer__links {
+	justify-content: center;
+}
+
+.footer .footer__col {
+	all: unset;
+	margin: 0 4rem;
+}
+.footer .row {
+	margin: 0 0 1rem;
+}
+
+@media (max-width: 996px) {
+	.col.footer__col {
+		all: unset;
+		width: 40%;
+	}
+	.row.footer__links {
+		all: unset;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
 }

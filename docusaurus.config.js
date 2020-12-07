@@ -1,14 +1,15 @@
 module.exports = {
 	title: "Akhila C R",
 	tagline: "Hi, I'm a front-end developer :)",
-	url: "https://github.com/akhilalekha",
+	url: "https://akhilalekha.github.io",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	favicon: "_",
 	organizationName: "akhilalekha", // Usually your GitHub org/user name.
-	projectName: "website-ds", // Usually your repo name.
-	// #9DFF63
+	projectName: "akhilalekha.github.io", // Usually your repo name.
+
 	themeConfig: {
+		plugins: ["@docusaurus/plugin-google-analytics"],
 		navbar: {
 			title: "Akhila C R",
 			logo: {
@@ -19,30 +20,12 @@ module.exports = {
 				{ to: "resume/", label: "Resume", position: "left" },
 				{ to: "showcase/", label: "Showcase", position: "left" },
 				{ to: "blog", label: "Blog", position: "left" }
-				// {
-				// 	href: "https://github.com/facebook/docusaurus",
-				// 	label: "GitHub",
-				// 	position: "right"
-				// }
 			],
 			hideOnScroll: true
 		},
 		footer: {
 			style: "dark",
 			links: [
-				// {
-				// 	title: "Docs",
-				// 	items: [
-				// 		{
-				// 			label: "Style Guide",
-				// 			to: "docs/"
-				// 		},
-				// 		{
-				// 			label: "Second Doc",
-				// 			to: "docs/doc2/"
-				// 		}
-				// 	]
-				// },
 				{
 					title: "Reach me at",
 					items: [
@@ -66,7 +49,13 @@ module.exports = {
 					]
 				}
 			],
-			copyright: `Made with ♥ by me using Docusaurus · Copyright © ${new Date().getFullYear()} Akhila C R`
+			copyright: `Made with ♥ by me using Docusaurus · Copyright © ${new Date().getFullYear()}`
+			//· Copyright © ${new Date().getFullYear()} Akhila C R
+		},
+		googleAnalytics: {
+			trackingID: "G-QDPNFZWV9K"
+			// measurementID: "G-QDPNFZWV9K",
+			// Optional fields.
 		}
 	},
 	presets: [
@@ -83,12 +72,4 @@ module.exports = {
 			}
 		]
 	]
-	// scripts: [
-	// 	"https://kit.fontawesome.com/2077184b1c.js"
-	// 	// Object format.
-	// 	{
-	// 		src: "https://use.fontawesome.com/releases/v5.15.1/js/all.js",
-	// 		async: true
-	// 	}
-	// ]
 };

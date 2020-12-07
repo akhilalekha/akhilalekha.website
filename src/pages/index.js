@@ -1,10 +1,9 @@
 import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
-// import Link from '@docusaurus/Link';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-// import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./style.module.css";
+import Head from "@docusaurus/Head";
 
 function Home() {
 	const context = useDocusaurusContext();
@@ -12,8 +11,14 @@ function Home() {
 	return (
 		<Layout
 			title={`Home`}
-			description="This is the personal portfolio website of Akhila C R"
+			description="Personal website of Akhila C R | Frontend Engineer"
 		>
+			<Head>
+				<meta
+					property="og:description"
+					content="Personal website of Akhila C R | Frontend Engineer"
+				/>
+			</Head>
 			<main>
 				<div>
 					<header

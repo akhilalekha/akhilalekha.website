@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 import styles from "./resume.module.css";
 
 function Resume() {
@@ -33,12 +34,17 @@ function Resume() {
 					</li>
 				</ul>
 				<h3>Skills</h3>
+				<h4>Technologies</h4>
 				<p>
 					HTML 5, CSS 3, JavaScript, Bootstrap, React.js, Node.js, Mongoose,
 					SQL, RESTful API
 				</p>
+				<h4>Tools</h4>
+				<p>Git, npm, yarn, VS Code</p>
 				<h3>Projects and Certificates</h3>
-				<h4>Projects</h4>
+				<h4>
+					<Link to="/showcase">Projects</Link>
+				</h4>
 				<ul>
 					<li>
 						Recipe App : We can search recipes according to the ingredients. It
@@ -58,7 +64,7 @@ function Resume() {
 						The Simon Game : Mini game involving following a pattern using pure
 						JavaScript
 					</li>
-					<p>Drum Kit Game: Mini drum music game made with pure JavaScript</p>
+					<li>Drum Kit Game: Mini drum music game made with pure JavaScript</li>
 				</ul>
 				<h4>Certificates</h4>
 				<h5>Cognizant</h5>

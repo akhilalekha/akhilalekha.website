@@ -26,7 +26,7 @@ const projects = [
 		github_link: "https://codesandbox.io/s/todolist-frontend-17x72"
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Simon game",
 		description:
 			"Mini game involving following a pattern using pure JavaScript, HTML and CSS. Tell me your high score!",
@@ -35,7 +35,7 @@ const projects = [
 		github_link: "https://github.com/akhilalekha/The-Simon-Game"
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Drum Kit Game",
 		description: "Mini drum music game made with pure JavaScript, HTML and CSS",
 		thumbnail: "../static/img/drumkit-game.jpg",
