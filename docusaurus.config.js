@@ -6,7 +6,7 @@ module.exports = {
 	onBrokenLinks: "throw",
 	favicon: "_",
 	organizationName: "akhilalekha", // Usually your GitHub org/user name.
-	projectName: "akhilalekha.github.io", // Usually your repo name.
+	projectName: "akhilalekha.website", // Usually your repo name.
 
 	themeConfig: {
 		plugins: ["@docusaurus/plugin-google-analytics"],
