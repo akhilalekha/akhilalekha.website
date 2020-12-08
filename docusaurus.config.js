@@ -2,7 +2,7 @@ module.exports = {
 	title: "Akhila C R",
 	tagline: "Hi, I'm a front-end developer :)",
 	url: "https://akhilalekha.netlify.app",
-	baseUrl: "/akhilalekha.website/",
+	baseUrl: "/",
 	onBrokenLinks: "throw",
 	favicon: "_",
 	organizationName: "akhilalekha", // Usually your GitHub org/user name.

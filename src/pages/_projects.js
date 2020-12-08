@@ -4,7 +4,7 @@ const projects = [
 		title: "Keeper App front-end version",
 		description:
 			"This is inspired from Google Keep. It’s made with React.js and Material UI Icons",
-		thumbnail: "../static/img/keeper-app.jpg",
+		thumbnail: "/img/keeper-app.jpg",
 		live_link: "https://u6jv0.csb.app/",
 		github_link: "https://codesandbox.io/s/keeper-app-u6jv0"
 	},
@@ -13,7 +13,7 @@ const projects = [
 		title: "Todolist App full stack version",
 		description:
 			'A simple todolist app made with Node.js, EJS and MongoDB. This is the most "original" app idea ever!',
-		thumbnail: "../static/img/todolist-fullstack.jpg",
+		thumbnail: "/img/todolist-fullstack.jpg",
 		live_link: "https://todolist21.herokuapp.com/",
 		github_link: "https://github.com/akhilalekha/todolist-v2"
 	},
@@ -21,7 +21,7 @@ const projects = [
 		id: 3,
 		title: "Todolist App front-end version",
 		description: "This one is made with plain React.js",
-		thumbnail: "../static/img/todolist-frontend.jpg",
+		thumbnail: "/img/todolist-frontend.jpg",
 		live_link: "https://17x72.csb.app/",
 		github_link: "https://codesandbox.io/s/todolist-frontend-17x72"
 	},
@@ -30,7 +30,7 @@ const projects = [
 		title: "Simon game",
 		description:
 			"Mini game involving following a pattern using pure JavaScript, HTML and CSS. Tell me your high score!",
-		thumbnail: "../static/img/simon-game.jpg",
+		thumbnail: "/img/simon-game.jpg",
 		live_link: "https://akhilalekha.github.io/The-Simon-Game/",
 		github_link: "https://github.com/akhilalekha/The-Simon-Game"
 	},
@@ -38,7 +38,7 @@ const projects = [
 		id: 5,
 		title: "Drum Kit Game",
 		description: "Mini drum music game made with pure JavaScript, HTML and CSS",
-		thumbnail: "../static/img/drumkit-game.jpg",
+		thumbnail: "/img/drumkit-game.jpg",
 		live_link: "https://akhilalekha.github.io/Drum-Kit-Game/",
 		github_link: "https://github.com/akhilalekha/The-Simon-Game"
 	}
