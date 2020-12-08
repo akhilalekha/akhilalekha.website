@@ -1,7 +1,7 @@
 module.exports = {
 	title: "Akhila C R",
 	tagline: "Hi, I'm a front-end developer :)",
-	url: "https://akhilalekha.netlify.com",
+	url: "https://akhilalekha.netlify.app",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	favicon: "_",
