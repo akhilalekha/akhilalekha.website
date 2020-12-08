@@ -1,5 +1,13 @@
 const projects = [
 	{
+		id: 6,
+		title: "Personal Site",
+		description: "This is this site. This is recursion XD",
+		thumbnail: "/img/personalsite.jpg",
+		live_link: "https://akhilalekha.netlify.app/",
+		github_link: "https://github.com/akhilalekha/akhilalekha.website"
+	},
+	{
 		id: 1,
 		title: "Keeper App front-end version",
 		description:

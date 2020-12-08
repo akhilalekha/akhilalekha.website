@@ -83,4 +83,7 @@ footer .text--center {
 		justify-content: center;
 		margin-bottom: 1rem;
 	}
+	.main-wrapper {
+		height: 100%;
+	}
 }
