@@ -53,7 +53,7 @@ module.exports = {
 			//· Copyright © ${new Date().getFullYear()} Akhila C R
 		},
 		googleAnalytics: {
-			trackingID: "G-QDPNFZWV9K"
+			trackingID: "G-4KLZ0K700E"
 			// measurementID: "G-QDPNFZWV9K",
 			// Optional fields.
 		}
