@@ -60,15 +60,15 @@ function Resume() {
 					</li>
 				</ul>
 				<h4>Certificates and Courses</h4>
-				<li>
-					<ul>Udemy: Web Development Bootcamp</ul>
-					<ul>Udemy: Node with React</ul>
-					<ul>LinkedIn: Programming foundations : Algorithms</ul>
-					<ul>
+				<ul>
+					<li>Udemy: Web Development Bootcamp</li>
+					<li>Udemy: Node with React</li>
+					<li>LinkedIn: Programming foundations : Algorithms</li>
+					<li>
 						Infosys Campus Connect: Attended training under Infosys Campus
 						Connect Business English Program - Graded B+
-					</ul>
-				</li>
+					</li>
+				</ul>
 				<h3>Education</h3>
 				<h4>Mahatma Gandhi University Kottayam</h4>
 				<em>2013 - 2017 | Ernakulam, Kerala</em>
