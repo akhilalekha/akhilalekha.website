@@ -1,5 +1,14 @@
 const projects = [
 	{
+		id: 7,
+		title: "Recipe App",
+		description:
+			"Consumes an API to show a list of recipes according to a search parameter",
+		thumbnail: "/img/recipeapp.jpg",
+		live_link: "https://zen-shannon-9afc5a.netlify.app/",
+		github_link: "https://github.com/akhilalekha/react-recipe"
+	},
+	{
 		id: 6,
 		title: "Personal Site",
 		description: "This is this site. This is recursion XD",
