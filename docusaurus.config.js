@@ -1,6 +1,6 @@
 module.exports = {
 	title: "Akhila C R",
-	tagline: "Hi, I'm a front-end developer :)",
+	tagline: "Hi, I'm a full-stack developer :)",
 	url: "https://akhilalekha.netlify.app",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
