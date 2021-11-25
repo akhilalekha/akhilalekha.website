@@ -49,7 +49,7 @@ module.exports = {
 					]
 				}
 			],
-			copyright: `Made with ♥ by me using Docusaurus · © ${new Date().getFullYear()}`
+			copyright: `May the force ❤ be with me · © ${new Date().getFullYear()}`
 			//· Copyright © ${new Date().getFullYear()} Akhila C R
 		},
 		googleAnalytics: {
