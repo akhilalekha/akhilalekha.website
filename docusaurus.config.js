@@ -17,7 +17,11 @@ module.exports = {
 				src: "img/web_development.svg"
 			},
 			items: [
-				{ to: "resume/", label: "Resume", position: "left" },
+				{
+					to: "https://drive.google.com/file/d/1k1o3IFMfreI62kW-VA_qZT_Xr0uQhZTv/view",
+					label: "Resume",
+					position: "left"
+				},
 				{ to: "showcase/", label: "Showcase", position: "left" },
 				{ to: "blog", label: "Blog", position: "left" }
 			],
