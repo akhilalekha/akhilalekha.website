@@ -19,7 +19,7 @@ function Home() {
 					content="Personal website of Akhila C R | Fullstack Engineer"
 				/>
 			</Head>
-			<main>
+			<main className="home-main">
 				<div>
 					<header
 						className={clsx("hero hero--primary", styles.heroBanner)}
