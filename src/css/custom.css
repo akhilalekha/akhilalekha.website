@@ -54,6 +54,15 @@ em {
 	font-size: 17px;
 }
 
+.main-wrapper {
+	background: linear-gradient(
+		135deg,
+		rgba(125, 42, 232, 1) 30%,
+		rgba(1, 194, 204, 1) 73%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
 /** footer override **/
 
 footer .text--center {
