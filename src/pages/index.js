@@ -11,12 +11,12 @@ function Home() {
 	return (
 		<Layout
 			title={`Home`}
-			description="Personal website of Akhila C R | Fullstack Engineer"
+			description="Personal website of Akhila C R | Fullstack Software Engineer"
 		>
 			<Head>
 				<meta
 					property="og:description"
-					content="Personal website of Akhila C R | Fullstack Engineer"
+					content="Personal website of Akhila C R | Fullstack Software Engineer"
 				/>
 			</Head>
 			<main className="home-main">
