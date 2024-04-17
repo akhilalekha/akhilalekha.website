@@ -18,7 +18,7 @@ module.exports = {
 			},
 			items: [
 				{
-					to: "https://drive.google.com/file/d/12R2cPzTt0_nslwnoZ2S5DWMA1IhOPK4A/view?usp=sharing",
+					to: "https://drive.google.com/file/d/16aFJXy8f4TA4h8VGfGqDVfEJwA2_iX0G/view?usp=sharing",
 					label: "Resume",
 					position: "left"
 				},
